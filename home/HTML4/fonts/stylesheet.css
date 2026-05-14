@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Bad Script';
+    src: url('BadScript-Regular.eot');
+    src: url('BadScript-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BadScript-Regular.woff2') format('woff2'),
+        url('BadScript-Regular.woff') format('woff'),
+        url('BadScript-Regular.ttf') format('truetype'),
+        url('BadScript-Regular.svg#BadScript-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('Lobster-Regular.eot');
+    src: url('Lobster-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Lobster-Regular.woff2') format('woff2'),
+        url('Lobster-Regular.woff') format('woff'),
+        url('Lobster-Regular.ttf') format('truetype'),
+        url('Lobster-Regular.svg#Lobster-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Regular.eot');
+    src: url('Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Oswald-Regular.woff2') format('woff2'),
+        url('Oswald-Regular.woff') format('woff'),
+        url('Oswald-Regular.ttf') format('truetype'),
+        url('Oswald-Regular.svg#Oswald-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('Philosopher-Regular.eot');
+    src: url('Philosopher-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Philosopher-Regular.woff2') format('woff2'),
+        url('Philosopher-Regular.woff') format('woff'),
+        url('Philosopher-Regular.ttf') format('truetype'),
+        url('Philosopher-Regular.svg#Philosopher-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
