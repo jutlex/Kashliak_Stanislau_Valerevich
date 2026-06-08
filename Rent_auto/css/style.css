@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PP Pangram Sans Rounded', swap;
+    font-size: 15px;
+    line-height: 110%;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.btn {
+    border: solid;
+    border-color: #3C3C3C;
+    background-color: transparent;
+    border-radius: 8px;
+    border-width: 2px;
+    text-align: center;
+    height: 44px;
+    font-size: 13px;
+    font-weight: 700; 
+    float: left;
+    padding: 12px 20px;
+    margin-left: -90px;
+    margin-top: 38px ;
+
+}
+
+.header_top {
+    width: 1801px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    background-color: #181818;
+    overflow: hidden;
+    padding-bottom: 41px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 36px;
+    margin-top: 42px;
+}
+.town {
+    width: 172px;
+    height: 38px;
+    margin-top: 41px;
+    margin-left: 50px;
+    background-color: #0c0c0c;
+    border-radius: 6px;
+    float: left;
+    
+}
+.msk {
+    text-transform: uppercase;
+    font-size: 11px; 
+    float: left;
+    padding-top: 12px;
+    font-weight: 700;
+    
+}
+
+.marker-gold {
+    margin-right: 7px;
+    margin-left: 13px;
+}
+
+.line {
+    margin-left: 14px;
+}
+
+.dub {
+    text-transform: uppercase;
+    font-size: 11px; 
+    float: right;
+    padding-top: 12px;
+    padding-right: 13px;
+    color: #a6a6a6;
+    font-weight: 700;
+    
+    
+}
+
+.marker {
+    margin-right: 7px;
+}
+
+.navigation {
+    float: left;
+    margin-left: 85px;
+    margin-top: 49px;
+}
+
+.href1 {
+    margin-right: 50px;
+}
+
+.href2 {
+    margin-right: 50px;
+}
+
+.href3 {
+    margin-right: 50px;
+}
+
+.href4 {
+    margin-right: 50px;
+}
+
+.contacts {
+    float: left;
+    margin-left: 85px;
+    margin-top: 50px;
+    margin-right: 85px;
+}
+
+.whatsup {
+    margin-right: 14px;
+}
+
+.tg {
+    margin-right: 60px;
+
+}
+
+.number {
+    float: right;
+    font-size: 18px;
+    font-family: Unbounded;
+    font-weight: bold;
+    margin-right: 32px;
+
+}
+
+.header-right {
+    float: left;
+    margin-left: 85px;
+    margin-top: 37px;
+}
+
