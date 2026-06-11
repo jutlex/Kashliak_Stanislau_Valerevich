@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form style="width: 300px;" action="https://fe.it-academy.by/TestForm.php">
+        <fieldset>
+            <legend>Строка поиска</legend>
+            <input type="text" maxlength="10" name="text">
+            <input type="submit">
+            <input type="radio" name="on site"> на сайте
+            <input type="radio" name="google"> в google
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <br>
+
+    <form style="width: 330px;" action="https://fe.it-academy.by/TestForm.php" method="post">
+        
+        <fieldset>
+            <legend>Авторизуйтесь</legend>
+            <label for=""><input style="margin-bottom: 5px;" type="text">Логин</label>
+            <label for=""><input type="text">Пароль</label>
+            <br>
+            <label for=""><input type="checkbox"> Оставаться в системе</label>
+            <br>
+            <input type="submit" value="Войти">
+
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form style="width: 200px;" action="https://fe.it-academy.by/TestForm.php">
+        <fieldset>
+            <legend>Как вам?</legend>
+            <input type="radio">ничего
+            <br>
+            <input type="radio">неплохо
+            <br>
+            <input type="radio">хорошо
+            <br>
+            <input type="radio">супер
+            <br>
+            <input type="submit" value="Отправить">
+            <input type="hidden" name="date_voite" value="2013.12.31">
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
