@@ -18,6 +18,12 @@ a {
     margin: 0 auto;
 }
 
+h5 {
+    font-size: 17px;
+    font-weight: 300;
+    display: inline-block;
+}
+
 .btn {
     border: solid;
     border-color: #3C3C3C;
@@ -150,5 +156,98 @@ a {
     float: left;
     margin-left: 85px;
     margin-top: 37px;
+}
+
+.main-face {
+    background-image: url(../img/main-car.png);
+    margin: 0 auto;
+    width: 1860px;
+    height: 966px;
+
+}
+
+.main-text {
+    font-family: Unbounded;
+    font-weight: bold;
+    font-size: 89px;
+    text-align: center;
+    color: #fff;
+    padding-top: 170px;
+    
+}
+
+.main-side-text {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.main-line {
+    padding-top: 120px;
+}
+
+.advantages {
+    margin: 70px 60px 0px 60px;
+    
+}
+
+.advantage-1 {
+    float: left;
+    margin-right: 48px;
+}
+
+.advantage-2 {
+    float: left;
+    margin-right: 48px;
+}
+
+.advantage-3 {
+    float: left;
+    margin-right: 48px;
+}
+
+.advantage-4 {
+    float: left;
+    margin-right: 48px;
+}
+
+.advantage-5 {
+    float: right;
+    
+    
+}
+
+.advantage-1-img {
+    border-radius: 50%;
+    margin-right: 17px;
+    vertical-align: 5px;
+}
+
+.advantage-2-img {
+    border-radius: 50%;
+    margin-right: 17px;
+    vertical-align: 5px;
+}
+
+
+.advantage-3-img {
+    border-radius: 50%;
+    margin-right: 17px;
+    vertical-align: 5px;
+}
+
+
+.advantage-4-img {
+    border-radius: 50%;
+    margin-right: 17px;
+    vertical-align: 5px;
+}
+
+
+.advantage-5-img {
+    border-radius: 50%;
+    margin-right: 17px;
+    vertical-align: 5px;
 }
 
