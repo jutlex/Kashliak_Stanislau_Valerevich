@@ -715,3 +715,237 @@ h5 {
     font-size: 18px;
     font-weight: 400;
 }
+
+.rent-form{
+    background-image: url(../img/bg-rent-form.png);
+    width: 1860px;
+    height: 764px;
+    margin-left: 30px;
+    margin-top: 120px;
+}
+
+.rent-rightnow-text{
+    font-family: Unbounded;
+    font-weight: bold;
+    font-size: 48px;
+    padding-top: 122px;
+    padding-bottom: 70px;
+}
+
+.about-intro{
+    float: left;
+}
+
+.dizrental-maintext{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 36px;
+    display: block;
+}
+
+.dizrental-subtext{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.register-form{
+    float: right;
+}
+
+.checkbox-name{
+    width: 424px;
+    height: 76px;
+    background-color: #fff;
+    padding-top: 28px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+
+.checkbox-name-text{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.checkbox-phonenumber{
+    width: 424px;
+    height: 76px;
+    background-color: #fff;
+    padding-top: 28px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+
+.checkbox-phonenumber-text{
+    color: #A4A4A4;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.checkbox-rent{
+    width: 424px;
+    height: 76px;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding-top: 28px;
+}
+
+.personal-data{
+    width: 372px;
+    height: 40px;
+    margin-top: 40px;
+    margin-right: 69px;
+    background-color: transparent;
+}
+
+.personal-data-checkbox{
+    margin-right: 14px;
+    float: left;
+    margin-top: 5px;
+}
+
+.personal-data-text{
+    margin-left: 34px;
+}
+
+.personal-data-text1{
+    line-height: 1.4;
+    color: #B6B6B6;
+    font-weight: 300;
+}
+
+.personal-data-text2{
+    line-height: 1.4;
+    color: white;
+    font-weight: 300;
+}
+
+.rent-variants{
+    margin-top: 120px;
+}
+
+.rent-variants-text{
+    font-family: Unbounded;
+    font-weight: bold;
+    font-size: 48px;
+    color: black;
+}
+
+.wedding{
+    width: 648px;
+    height: 584px;
+    float: left;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 60px;
+
+}
+
+.wedding-img{
+    margin-bottom: 50px;
+
+}
+
+.wedding-text{
+    float: left;
+}
+
+.wedding-text1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.wedding-text2{
+    font-size: 16px;
+    display: block;
+    font-weight: 300;
+    color: #989898;
+    margin-left: 50px;
+}
+
+.arrow{
+    float: right;
+    margin-right: 50px;
+}
+
+.photoshoot{
+    width: 648px;
+    height: 584px;
+    float: right;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.rent-process{
+    margin-top: 120px;
+}
+
+.rent-steps{
+    font-family: Unbounded;
+    font-weight: bold;
+    font-size: 48px;
+    color: black;
+    text-align: center;
+}
+
+.rent-bid{
+    float: left;
+    margin-top: 60px;
+    margin-right: 24px;
+    background-color: #fff;
+    width: 424px;
+    height: 272px;
+    border-radius: 20px;
+}
+
+.rent-steps-img{
+    float: left;
+    margin-top: 66px;
+    margin-left: 50px;
+}
+
+.rent-steps-text{
+    float: right;
+    margin-top: 66px;
+    margin-left: 40px;
+}
+
+.rent-steps-text-main{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.rent-steps-text-aside{
+    font-size: 16px;
+    font-weight: 300;
+    color: #989898;
+    margin-top: 22px;
+    margin-right: 50px;
+}
+
+.rent-agreement{
+    float: left;
+    margin-top: 60px;
+    margin-right: 24px;
+    background-color: #fff;
+    width: 424px;
+    height: 272px;
+    border-radius: 20px;
+}
+
+.rent-finish{
+    float: left;
+    margin-top: 60px;
+    background-color: #fff;
+    width: 424px;
+    height: 272px;
+    border-radius: 20px;
+}
+
