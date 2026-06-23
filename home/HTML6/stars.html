@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            overflow: hidden;
+            margin-right: 1348px;
+        } 
+
+        .star {
+            float: right;
+        }
+
+         .star:hover, /* я сам додумался как сделать, чтобы закрашивались следующие после наведения, но не понял как сделать чтобы закрашивалась и та, на которую наведена мышь, по итогу подсмотрел у ии  */
+        .star:hover ~ .star {
+         content: url(img/star1.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img class="star" src="img/star0.png" alt="">
+        <img class="star" src="img/star0.png" alt="">
+        <img class="star" src="img/star0.png" alt="">
+        <img class="star" src="img/star0.png" alt="">
+        <img class="star" src="img/star0.png" alt="">
+    </div>
+</body>
+</html>
