@@ -1,0 +1,611 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 170%;
+    color: #fff;
+}
+
+.all {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+
+h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 2%;
+    color: #0d0d0d;
+}
+
+h4:hover {
+    color: #f41240;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 10%;
+    color: #f2f2f2;
+}
+
+h5:hover {
+    color: #f41240;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    color: #151515;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    border-bottom: 1px solid #dadada;
+    padding: 20px;
+    padding-left: 5px;
+}
+
+li:first-child {
+    padding-top: 0px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+ul li::before {
+    content: "•";
+    font-size: 16px;
+    color: #151515;
+    display: inline-block;
+    width: 15px;
+}
+
+.header {
+    width: 1920px;
+    background-color: #fff;
+
+
+}
+
+.header-top {
+    background-color: #fff;
+}
+
+.header-logo {
+    margin: 31px 324px 31px 280px;
+    float: left;
+}
+
+.global-navigation {
+    width: 520px;
+    height: 24px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    float: left;
+}
+
+.about {
+    float: left;
+    margin-right: 30px;
+}
+
+.videos {
+    float: left;
+    margin-right: 30px;
+}
+
+.services {
+    float: left;
+    margin-right: 30px;
+}
+
+.partners {
+    float: left;
+    margin-right: 30px;
+}
+
+.contacts {
+    float: right;
+}
+
+.rutube-header-logo {
+    width: 141px;
+    position: relative;
+    float: left;
+    margin-left: 324px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rutube-header-logo img {
+    transition: 0.8s;
+}
+
+.rutube-logo-hover {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.rutube-header-logo:hover .rutube-logo-hover {
+    opacity: 1;
+}
+
+.header-bottom {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+
+.header-main-text {
+    font-size: 60px;
+    text-align: center;
+    line-height: 150%;
+    font-weight: 600;
+    padding-top: 162px;
+}
+
+.сontacts {
+    margin-top: 188px;
+    margin-bottom: 89px;
+    margin-left: 280px;
+
+}
+
+.phonenumber {
+    float: left;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 150%;
+    letter-spacing: 1%;
+    margin-top: 6px;
+}
+
+.btn1 {
+    margin-left: 354px;
+    margin-bottom: 89px;
+}
+
+.mail {
+    float: right;
+    margin-right: 503px;
+}
+
+.mail-icon {
+    margin-right: 7.5px;
+    vertical-align: -3px;
+    margin-top: 17px;
+}
+
+.videos-text {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 150%;
+    letter-spacing: 50%;
+    color: #151515;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.bmx {
+    float: left;
+    height: 640px;
+}
+
+.music {
+    float: right;
+    height: 640px;
+}
+
+.neon-dance {
+    display: none;
+}
+
+.architecture {
+    display: none;
+}
+
+.signal-img {
+    margin-top: 36px;
+    margin-bottom: 108px;
+}
+
+.signal-services {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 150%;
+    letter-spacing: 50%;
+    color: #151515;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.content-of-services {
+    display: grid;
+    grid-template-rows: repeat(10, 126px);
+    grid-template-columns: 485px 485px;
+    margin-left: 445px;
+    gap: 70px;
+    column-gap: 195px;
+}
+
+.grid-cell1 {
+    grid-column: 1;
+    grid-row: 1 / 5;
+    position: relative;
+}
+
+.grid-cell1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 83px;
+    height: 2px;
+    background-color: #dc0000;
+}
+
+.grid-cell2 {
+    grid-column: 1;
+    grid-row: 5 / 10;
+    position: relative;
+    margin-top: 50px;
+}
+
+.grid-cell2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 83px;
+    height: 2px;
+    background-color: #dc0000;
+}
+
+.grid-cell3 {
+    grid-column: 2;
+    grid-row: 2 / 7;
+    position: relative;
+    height: 710px;
+}
+
+.grid-cell3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 83px;
+    height: 2px;
+    background-color: #dc0000;
+}
+
+.grid-cell4 {
+    grid-column: 2;
+    grid-row: 7 / 13;
+    position: relative;
+    margin-top: -70px;
+}
+
+.grid-cell4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 83px;
+    height: 2px;
+    background-color: #dc0000;
+}
+
+.grid-cell1-text {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #151515;
+    padding-top: 40px;
+}
+
+.grid-cell1-img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.grid-cell1-text-small {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    color: #151515;
+    padding-bottom: 40px;
+}
+
+.grid-cell1-text-result {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #dc0000;
+    text-transform: uppercase;
+    letter-spacing: 50%;
+}
+
+.achievements {
+    background-color: #f3f3f3;
+    margin-top: -110px;
+
+}
+
+.container {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.brand-story {
+    margin-top: 70px;
+}
+
+.brand-story-bigtext {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #151515;
+    float: left;
+    margin-top: 70px;
+}
+
+.brand-story-text {
+    font-size: 18px;
+    font-weight: 400;
+    float: right;
+    color: #151515;
+    margin-top: 70px;
+}
+
+.signal-now {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 50%;
+    text-transform: uppercase;
+    color: #868686;
+    margin-top: 70px;
+    margin-left: 484px;
+
+}
+
+.about-numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 393px);
+    grid-template-rows: 1;
+    column-gap: 90px;
+    align-items: center;
+}
+
+.about-numbers-1 {
+    font-size: 70px;
+    font-weight: 600;
+    color: #dc0000;
+    line-height: 110%;
+    border-radius: 30px;
+    margin-bottom: 12px;
+}
+
+.stat-card {
+    background-color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 100px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #161616;
+    height: 350px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+
+}
+
+.partners-text {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 150%;
+    letter-spacing: 50%;
+    color: #151515;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+
+.footer {
+    background-color: #151515;
+    margin-top: 100px;
+    height: 974px;
+}
+
+.contacts-text {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 150%;
+    letter-spacing: 50%;
+    color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 70px;
+    padding-top: 70px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 600px 274px 330px;
+    grid-template-rows: 543px;
+    column-gap: 80px;
+}
+
+.input-name-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+}
+
+.input-name {
+    color: #f2f2f2;
+    background-color: transparent;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    width: 257px;
+    height: 61px;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.input-tele {
+    color: #f2f2f2;
+    background-color: transparent;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    width: 274px;
+    height: 61px;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.input-message {
+    color: #f2f2f2;
+    background-color: transparent;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    width: 274px;
+    height: 101px;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.btn2 {
+    width: 200px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #dc0000;
+    color: #f2f2f2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: transparent;
+    border: 1px solid #dc0000;
+    color: #dc0000;
+
+}
+
+.btn2 img:hover {
+    color: #dc0000;
+    fill: #dc0000;
+    stroke: #dc0000;
+}
+
+.btn2-img {
+    margin-left: 8px;
+    vertical-align: -3px;
+}
+
+.connection-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #b9b9b9;
+}
+
+.connection-main-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.connection {
+    margin-left: 180px;
+}
+
+.help {
+    width: 1360px;
+    height: 1px;
+    background-color: #2d2d2d;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.white-logo {
+    float: left;
+}
+
+.global-navigation-footer {
+    width: 664px;
+    height: 21px;
+    margin-bottom: 33px;
+    float: left;
+    margin-left: 246px;
+}
+
+.about-footer {
+    float: left;
+    margin-right: 70px;
+}
+
+.videos-footer {
+    float: left;
+    margin-right: 70px;
+}
+
+.services-footer {
+    float: left;
+    margin-right: 70px;
+}
+
+.partners-footer {
+    float: left;
+    margin-right: 70px;
+}
+
+.contacts-footer {
+    float: left;
+}
+
+.rutube-logo-footer{
+    float: right;
+}
