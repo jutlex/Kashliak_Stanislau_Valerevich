@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/owl.carousel.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
 </head>
@@ -13,51 +14,56 @@
     <div class="all">
         <div class="header">
             <div class="header-top">
-                <img class="header-logo" src="img/logo.svg" alt="logo">
-                <div class="global-navigation">
-                    <a class="about" href="#about">
-                        <h4>о нас</h4>
-                    </a>
-                    <a class="videos" href="#videos">
-                        <h4>ролики</h4>
-                    </a>
-                    <a class="services" href="#services">
-                        <h4>услуги</h4>
-                    </a>
-                    <a class="partners" href="#partners">
-                        <h4>партнеры</h4>
-                    </a>
-                    <a class="contacts" href="#contacts">
-                        <h4>контакты</h4>
-                    </a>
-                </div>
-                <div class="rutube-header-logo">
-                    <a href="https://rutube.ru/"><img class="rutube-logo" src="img/rutube-logo.jpg" alt=""></a>
-                    <a href="https://rutube.ru/"><img class="rutube-logo-hover" src="img/rutube-logo-hover.jpg"
-                            alt=""></a>
-                </div>
-            </div>
-            <div class="clear"></div>
-            <div class="header-bottom">
-                <h1 class="header-main-text">Агентство Signal — услуги <br> по креативному и техническому <br>
-                    обеспечению мероприятий</h1>
-                <div class="сontacts">
-                    <div class="phonenumber">+7(925) 077-41-57</div>
-                    <button class="btn1"><img src="img/btn1.webp" alt="btn1"></button>
-                    <div class="mail">
-                        <img class="mail-icon" src="img/mail-icon.svg" alt="mail">info@signal-tv.com
+                <div class="container">
+                    <img class="header-logo" src="img/logo.svg" alt="logo">
+                    <div class="global-navigation">
+                        <a class="about" href="#about">
+                            <h4>о нас</h4>
+                        </a>
+                        <a class="videos" href="#videos">
+                            <h4>ролики</h4>
+                        </a>
+                        <a class="services" href="#services">
+                            <h4>услуги</h4>
+                        </a>
+                        <a class="partners" href="#partners">
+                            <h4>партнеры</h4>
+                        </a>
+                        <a class="contacts" href="#contacts">
+                            <h4>контакты</h4>
+                        </a>
+                    </div>
+                    <div class="rutube-header-logo">
+                        <a href="https://rutube.ru/"><img class="rutube-logo" src="img/rutube-logo.jpg" alt=""></a>
+                        <a href="https://rutube.ru/"><img class="rutube-logo-hover" src="img/rutube-logo-hover.jpg"
+                                alt=""></a>
                     </div>
                 </div>
             </div>
             <div class="clear"></div>
+            <div class="header-bottom">
+                <div class="container">
+                    <h1 class="header-main-text">Агентство Signal — услуги <br> по креативному и техническому <br>
+                        обеспечению мероприятий</h1>
+                    <div class="сontacts">
+                        <div class="phonenumber">+7(925) 077-41-57</div>
+                        <button class="btn1"><img src="img/btn1.svg" alt="btn1"></button>
+                        <div class="mail">
+                            <img class="mail-icon" src="img/mail-icon.svg" alt="mail">info@signal-tv.com
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="clear"></div>
             <div class="main">
-                <div  id="videos" class="videos-text">ролики</div>
+                <div id="videos" class="videos-text">ролики</div>
                 <div class="main-videos">
-                    <div>
-                        <div class="bmx"><img src="img/bmx.png" alt=""></div>
-                        <div class="music"><img src="img/music.png" alt=""></div>
-                        <div class="neon-dance"></div>
-                        <div class="architecture"></div>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item"><a href=""><img src="img/bmx.png" alt=""></a></div>
+                        <div class="item"><a href=""><img src="img/music.png" alt=""></a></div>
+                        <div class="item"><a href=""><img src="img/architecture.png" alt=""></a></div>
+                        <div class="item"><a href=""><img src="img/neon-dance.png" alt=""></a></div>
                     </div>
                     <img class="signal-img" src="img/signal.png" alt="singnal">
                     <div id="services" class="signal-services">услуги</div>
@@ -215,6 +221,30 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           $(".owl-carousel").owlCarousel();
+        });
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    items: 2,
+    autoHeight: true,
+    responsive:{
+        375:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
 
 </body>
 

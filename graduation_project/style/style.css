@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #F5F5F5;
 }
 
 button {
@@ -98,7 +99,8 @@ ul li::before {
 }
 
 .header-logo {
-    margin: 31px 324px 31px 280px;
+    margin-top: 31px;
+    margin-right: 324px;
     float: left;
 }
 
@@ -137,8 +139,7 @@ ul li::before {
 .rutube-header-logo {
     width: 141px;
     position: relative;
-    float: left;
-    margin-left: 324px;
+    float: right;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -164,7 +165,6 @@ ul li::before {
 
 }
 
-
 .header-main-text {
     font-size: 60px;
     text-align: center;
@@ -176,7 +176,6 @@ ul li::before {
 .сontacts {
     margin-top: 188px;
     margin-bottom: 89px;
-    margin-left: 280px;
 
 }
 
@@ -196,7 +195,7 @@ ul li::before {
 
 .mail {
     float: right;
-    margin-right: 503px;
+
 }
 
 .mail-icon {
@@ -606,6 +605,475 @@ ul li::before {
     float: left;
 }
 
-.rutube-logo-footer{
+.rutube-logo-footer {
     float: right;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 800ms;
+}
+
+.item{
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+.owl-carousel .owl-dots{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #828282;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+}
+
+.owl-carousel .owl-nav{
+    color: #0d0d0d;
+     margin: 10px;
+}
+
+@media all and (max-width: 375px) {
+
+    /* Общие сбросы */
+    .all {
+        overflow: hidden;
+        display: block;
+        width: 100%;
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .header {
+        width: 100%;
+        max-width: 375px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 375px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+
+
+    .header-top .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 375px;
+        padding: 0 15px;
+        flex-wrap: nowrap;
+    }
+
+    .header-logo {
+        float: none;
+        width: 90px;
+        height: auto;
+        margin: 10px 0;
+        display: block;
+        flex-shrink: 0;
+    }
+
+    .global-navigation {
+        display: none;
+    }
+
+    .rutube-header-logo {
+        display: block;
+        float: none;
+        width: 32px;
+        height: 32px;
+        margin: 10px 0;
+        flex-shrink: 0;
+    }
+
+    .rutube-header-logo img {
+        width: 32px;
+        height: 32px;
+    }
+
+    /* Баннер */
+    .header-bottom {
+        background-image: url(../img/header-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0 15px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .header-main-text {
+        width: 308px;
+        font-size: 22px;
+        line-height: 130%;
+        padding-top: 56px;
+        text-align: center;
+        padding-left: 16px;
+    }
+
+    .сontacts {
+        margin: 40px 0 30px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .phonenumber {
+        float: none;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        order: -1;
+    }
+
+    .btn1 {
+        margin: 0;
+        width: 40px;
+        height: 40px;
+        max-width: 200px;
+        order: 3;
+    }
+
+    .btn1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .mail {
+        float: none;
+        margin: 0;
+        text-align: center;
+        font-size: 14px;
+        order: 2;
+    }
+
+    .mail-icon {
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-top: 0;
+        width: 20px;
+        height: 16px;
+    }
+
+    .videos-text {
+        font-size: 14px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        letter-spacing: 30%;
+    }
+
+    .main-videos {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .bmx,
+    .music {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .bmx img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .music img {
+        display: none;
+    }
+
+    .neon-dance {
+        display: none;
+    }
+
+    .architecture {
+        display: none;
+    }
+
+    .signal-img {
+        width: 1160px;
+        height: 116px;
+        margin: 30px 0;
+        display: block;
+    }
+
+    .signal-services {
+        font-size: 14px;
+        margin-bottom: 30px;
+        letter-spacing: 30%;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .content-of-services {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .grid-cell1,
+    .grid-cell2,
+    .grid-cell3,
+    .grid-cell4 {
+        grid-column: auto;
+        grid-row: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .grid-cell3 {
+        height: auto;
+    }
+
+    .grid-cell1::before,
+    .grid-cell2::before,
+    .grid-cell3::before,
+    .grid-cell4::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50px;
+        height: 2px;
+        background-color: #dc0000;
+    }
+
+    .grid-cell1-text {
+        font-size: 22px;
+        padding-top: 25px;
+        line-height: 130%;
+    }
+
+    .grid-cell1-img {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .grid-cell1-text-small {
+        font-size: 12px;
+        line-height: 170%;
+        padding-bottom: 20px;
+        text-align: left;
+        float: none;
+    }
+
+    .grid-cell1-text-result {
+        font-size: 14px;
+        letter-spacing: 30%;
+    }
+
+    .grid-cell1-text-result:last-child {
+        margin-bottom: 40px;
+    }
+
+    ul {
+        margin-bottom: 20px;
+    }
+
+    li {
+        font-size: 13px;
+        padding: 12px 5px;
+    }
+
+    .achievements {
+        margin-top: 0;
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .achievements .container {
+        padding: 0 15px;
+    }
+
+    .brand-story {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand-story-bigtext {
+        font-size: 25px;
+        line-height: 150%;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .brand-story-text {
+        font-size: 12px;
+        float: none;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .signal-now {
+        font-size: 14px;
+        margin: 30px 0 20px 0;
+        text-align: center;
+        letter-spacing: 30%;
+        margin-left: 0;
+    }
+
+    .about-numbers {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .stat-card {
+        width: 100%;
+        height: auto;
+        padding: 30px 20px;
+        margin: 0;
+    }
+
+    .about-numbers-1 {
+        font-size: 50px;
+    }
+
+    .partners-text {
+        font-size: 14px;
+        margin: 40px 0 30px 0;
+        letter-spacing: 30%;
+    }
+
+    .container img[alt="партнеры"] {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .footer {
+        margin-top: 40px;
+        height: auto;
+        padding: 0 15px 40px;
+        width: 100%;
+    }
+
+    .footer .container {
+        padding: 0;
+    }
+
+    .contacts-text {
+        font-size: 14px;
+        padding-top: 40px;
+        margin-bottom: 30px;
+        letter-spacing: 30%;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        grid-template-columns: none;
+        grid-template-rows: none;
+        column-gap: 0;
+    }
+
+    .map {
+        width: 100%;
+        order: 2;
+    }
+
+    .map img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .adress {
+        width: 100%;
+        order: 3;
+    }
+
+    .input-name,
+    .input-tele,
+    .input-message {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .btn2 {
+        width: 100%;
+        font-size: 13px;
+        padding: 12px 20px;
+    }
+
+    .connection {
+        margin-left: 0;
+        width: 100%;
+        order: -1;
+    }
+
+    .connection-main-text {
+        font-size: 13px;
+    }
+
+    .connection-text {
+        font-size: 13px;
+    }
+
+    .help {
+        width: 100%;
+        margin: 40px 0 30px 0;
+    }
+
+    .white-logo {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .white-logo-img {
+        width: 100px;
+        height: auto;
+    }
+
+    .global-navigation-footer {
+        float: none;
+        width: 100%;
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .about-footer,
+    .videos-footer,
+    .services-footer,
+    .partners-footer,
+    .contacts-footer {
+        float: none;
+        margin: 20px auto;
+    }
+
+    .rutube-logo-footer {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .rutube-logo-footer img {
+        width: 91px;
+        height: 18px;
+    }
+
 }
