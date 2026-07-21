@@ -29,6 +29,7 @@ h4 {
     line-height: 150%;
     letter-spacing: 2%;
     color: #0d0d0d;
+    display: inline-block;
 }
 
 h4:hover {
@@ -614,29 +615,28 @@ html {
     transition: 800ms;
 }
 
-.item{
+.item {
     margin-left: 25px;
     margin-right: 25px;
-    
+
 }
 
-.owl-carousel .owl-dots{
+/* .owl-carousel .owl-dots{
     width: 20px;
     height: 20px;
     border: 1px solid #828282;
     border-radius: 50%;
     margin: 10px;
     display: flex;
-}
+} */
 
-.owl-carousel .owl-nav{
+.owl-carousel .owl-nav {
     color: #0d0d0d;
-     margin: 10px;
+    margin: 10px;
 }
 
 @media all and (max-width: 375px) {
 
-    /* Общие сбросы */
     .all {
         overflow: hidden;
         display: block;
@@ -696,7 +696,7 @@ html {
         height: 32px;
     }
 
-    /* Баннер */
+
     .header-bottom {
         background-image: url(../img/header-bg.png);
         background-repeat: no-repeat;
