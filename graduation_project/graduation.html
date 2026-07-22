@@ -15,6 +15,7 @@
         <div class="header">
             <div class="header-top">
                 <div class="container">
+                    <div class="menu-controls"><button class="open" onclick="openHandler()"><img src="img/open.svg" alt=""></button> <button class="close" onclick="closeHandler()"><img src="img/close.svg" alt=""></button></div>
                     <img class="header-logo" src="img/logo.svg" alt="logo">
                     <div class="global-navigation">
                         <a class="about" href="#about">
@@ -142,7 +143,7 @@
                                 <h3 class="about-numbers-1">1400</h3>часов отснятого <br> материала
                             </div>
                             <div id="partners" class="stat-card">
-                                <h3 class="about-numbers-1">500</h3>мероприятий по всей br территории России
+                                <h3 class="about-numbers-1">500</h3>мероприятий по всей <br> территории России
                             </div>
                             <div class="stat-card">
                                 <h3 class="about-numbers-1">17</h3>видов спорта с нашим <br> участием
@@ -197,54 +198,91 @@
                     </div>
                     <div class="help"></div>
                     <div class="clear"></div>
-                    <div class="white-logo"><img class="white-logo-img" src="img/logo-white.svg" alt="logo"></div>
-                    <div class="global-navigation-footer">
-                        <a class="about-footer" href="#about">
-                            <h5>о нас</h5>
-                        </a>
-                        <a class="videos-footer" href="#videos">
-                            <h5>ролики</h5>
-                        </a>
-                        <a class="services-footer" href="#services">
-                            <h5>услуги</h5>
-                        </a>
-                        <a class="partners-footer" href="#partners">
-                            <h5>партнеры</h5>
-                        </a>
-                        <a class="contacts-footer" href="#contacts">
-                            <h5>контакты</h5>
-                        </a>
+                    <div class="footer-bottom">
+                        <div class="white-logo"><img class="white-logo-img" src="img/logo-white.svg" alt="logo"></div>
+                        <div class="global-navigation-footer">
+                            <a class="about-footer" href="#about">
+                                <h5>о нас</h5>
+                            </a>
+                            <a class="videos-footer" href="#videos">
+                                <h5>ролики</h5>
+                            </a>
+                            <a class="services-footer" href="#services">
+                                <h5>услуги</h5>
+                            </a>
+                            <a class="partners-footer" href="#partners">
+                                <h5>партнеры</h5>
+                            </a>
+                            <a class="contacts-footer" href="#contacts">
+                                <h5>контакты</h5>
+                            </a>
+                        </div>
+                        <a class="rutube-logo-footer" href="https://rutube.ru/"><img src="img/rutube.svg"
+                                alt="rutube"></a>
                     </div>
-                    <a class="rutube-logo-footer" href="https://rutube.ru/"><img src="img/rutube.svg" alt="rutube"></a>
                 </div>
 
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script>
-        $(document).ready(function(){
-           $(".owl-carousel").owlCarousel();
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
         });
         $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:0,
-    items: 2,
-    dots: false,
-    autoHeight: true,
-    responsive:{
-        375:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:5
+            loop: true,
+            margin: 0,
+            items: 1,
+            dots: false,
+            autoHeight: true,
+            responsive: {
+                375: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                },
+                1920: {
+                    items: 2
+                }
+            }
+        })
+         $(document).ready(function() {
+            $('a[href^="#"]').on('click', function(e) {
+                e.preventDefault();
+
+                var targetId = $(this).attr('href');
+                var targetOffset = $(targetId).offset().top;
+
+                $('html, body').animate({
+                    scrollTop: targetOffset
+                }, 800);
+            });
+        });
+
+        var menu = document.querySelector('.global-navigation');
+        var openBtn = document.querySelector('.open');
+        var closeBtn = document.querySelector('.close');
+
+
+        function openHandler() {
+            menu.style.right = 0;
+            openBtn.className = 'hide';
+            closeBtn.className = 'visible';
+
         }
-    }
-})
+
+        function closeHandler() {
+            menu.style.right = -375 + 'px';
+            openBtn.className = 'visible';
+            closeBtn.className = 'hide';
+        }
     </script>
 
 </body>
