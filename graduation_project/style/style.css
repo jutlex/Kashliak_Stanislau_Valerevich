@@ -658,7 +658,8 @@ html {
         justify-content: flex-end;
         align-items: center;
         height: 100%;
-        z-index: 10;
+        z-index: 1553;
+        margin-top: 14px;
     }
 
     .menu-controls .open {
@@ -673,9 +674,9 @@ html {
         z-index: 1500;
     }
 
-
     .visible {
         display: block; 
+        margin-top: 14px;
     }
     .hide {
         display: none;
